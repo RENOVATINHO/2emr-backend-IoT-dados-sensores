@@ -6,7 +6,7 @@ const cors = require('cors');
 
 const app = express();
 const PORT = 3000;
-const SECRET_KEY = 'Roraima'; // Substitua por uma chave secreta mais segura em produção
+const SECRET_KEY = 'sua_chave_secreta'; // Substitua por uma chave secreta mais segura em produção
 
 app.use(express.json());
 app.use(cors()); // Habilita o CORS para todas as origens
